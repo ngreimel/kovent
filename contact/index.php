@@ -1,8 +1,6 @@
 <?php
 
 date_default_timezone_set('America/Chicago');
-header('Location: https://koventcoordinating.com/#contact');
-exit;
 
 ?>
 <!doctype html>
@@ -10,7 +8,7 @@ exit;
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact | K&Omacr;VENT Coordinating</title>
+    <title>Contact | KŌVENT Event Coordinating</title>
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -18,10 +16,10 @@ exit;
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/css/bootstrap.min.20150101.css">
-    <link rel="stylesheet" href="/css/kovent.20150101.css">
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.20150101.css">
-    <script src="/js/vendor/modernizr-2.8.3.min.20150101.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.20150617.css">
+    <link rel="stylesheet" href="/css/kovent.201511001.css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.20150617.css">
+    <script src="/js/vendor/modernizr-2.8.3.min.20150617.js"></script>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -31,18 +29,18 @@ exit;
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
             <i class="fa fa-bars"></i>
           </button>
-          <a class="navbar-brand page-scroll" href="/">
-            <span class="logo white">K&Omacr;V</span><span class="logo blue">ENT</span>
+          <a class="navbar-brand page-scroll" href="#page-top">
+            <img alt="K&Omacr;VENT" src="/img/kovent-logo-black-background.20150818.png" width="180" />
           </a>
         </div>
 
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <div class="collapse navbar-collapse navbar-right navbar-custom navbar-main-collapse">
           <ul class="nav navbar-nav">
             <!-- Hidden to remove active class when focus in top section -->
             <li class="hidden">
@@ -50,54 +48,65 @@ exit;
             </li>
 
             <li>
-              <a href="/contact" class="page-scroll">Contact</a>
-            </li>
-            <li>
               <a href="/#about" class="page-scroll">About</a>
             </li>
             <li>
               <a href="/#services" class="page-scroll">Services</a>
+            </li>
+            <li>
+              <a href="/#contact" class="page-scroll">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2>Grab a coffee</h2>
-          <p>
-            Let's set up a meet and greet coffee date. Nothing serious,
-            unless we both think it's a good fit.
-          </p>
-          <p>
-            Two ways to schedule it:
-          </p>
-          <ul class="list-unstyled">
-            <li><a href="mailto:info@koventcoordinating.com" class="blue">info@koventcoordinating.com</a></li>
-            <li><a href="tel:+16129301515" class="blue">(612) 930-1515</a></li>
-          </ul>
+    <!-- Intro Header -->
+    <header class="intro intro-triangles">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="separator text-center"><i class="fa fa-phone fa-4x blue"></i></div>
+
+    <!-- Content Section -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h1>Grab a coffee</h1>
+            <p>
+              Let's set up a meet and greet coffee date. Nothing serious,
+              unless we both think it's a good fit.
+            </p>
+            <p>
+              Two ways to schedule it:
+            </p>
+            <ul class="list-unstyled">
+              <li><a href="mailto:info@koventcoordinating.com" class="blue">info@koventcoordinating.com</a></li>
+              <li><a href="tel:+16129301515" class="blue">(612) 930-1515</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
+        <div class="row text-center">
+          <div class="hidden-xs col-sm-6">
             <div class="logo">
-              <h1>
-                <span class="white">K&Omacr;V</span><span class="blue">ENT</span>
-                <br />
-                <small>EVENT COORDINATING + CONCIERGE</small>
-              </h1>
+              <h1 class="brand-heading"><img class="img-responsive" alt="K&Omacr;VENT Event Coordinating + Production" src="/img/kovent-logo-black-background.20150818.png" /></h1>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="pull-right">
+          <div class="col-xs-12 col-sm-6">
+            <p>
               <a href="mailto:info@koventcoordinating.com" class="btn btn-circle">
                 <i class="fa fa-envelope-o"></i>
               </a>
@@ -113,20 +122,34 @@ exit;
               <a href="https://www.linkedin.com/in/kovent" class="btn btn-circle" target="_blank">
                 <i class="fa fa-linkedin"></i>
               </a>
+            </p>
+            <p class="chat">
+              Let's Talk <a href="tel:+16129301515" class="blue"><i class="fa fa-phone"></i> (612) 930-1515</a>
+            </p>
+          </div>
+          <div class="visible-xs col-xs-6 col-xs-offset-3">
+            <div class="logo">
+              <h1 class="brand-heading"><img class="img-responsive" alt="K&Omacr;VENT Event Coordinating + Production" src="/img/kovent-logo-black-background.20150818.png" /></h1>
             </div>
           </div>
         </div>
       </div>
+      <?php if (false) : ?>
+      <div class="sr-only">
+        Website built and maintained by <a href="https://www.nealgreimel.com/"><abbr title="Greimel Computer Consulting, Inc.">GCC</abbr></a>
+      </div>
+      <?php endif; ?>
     </footer>
 
-    <script src="/js/vendor/jquery.20150101.js"></script>
-    <script src="/js/bootstrap.min.20150101.js"></script>
-    <script src="/js/vendor/jquery.easing.min.20150101.js"></script>
-    <script src="/js/vendor/jquery.cookie-1.4.1.min.20150101.js"></script>
-    <script src="/js/kovent.20150101.js"></script>
+    <script src="/js/vendor/jquery.20150617.js"></script>
+    <script src="/js/bootstrap.min.20150617.js"></script>
+    <script src="/js/vendor/jquery.easing.min.20150617.js"></script>
+    <script src="/js/vendor/jquery.cookie-1.4.1.min.20150617.js"></script>
+    <script src="/js/kovent.20151102.js"></script>
 
     <!--[if lt IE 8]>
-    <script src="/js/browse.happy.20150101.js"></script>
+    <script src="/js/browse.happy.20150617.js"></script>
     <![endif]-->
+
   </body>
 </html>

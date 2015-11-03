@@ -39,10 +39,8 @@ var addVideo = {
   }
 };
 
-if (Modernizr.video.h264 && jQuery(window).width() > 768) {
+if (jQuery('.addVideo').length && Modernizr.video.h264 && jQuery(window).width() > 768) {
   setTimeout(function () {
     addVideo.init(jQuery);
   }, 100);
-} else {
-  console.log('No video support, or small device');
 }

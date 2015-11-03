@@ -11,13 +11,13 @@ date_default_timezone_set('America/Chicago');
     <title>KŌVENT Event Coordinating</title>
 
     <meta name="description" content="KOVENT: an unbelievable event that happens or is regarded as 'happening'; the collaboration of ideas, planning, implementing, execution, success, or result of anything regarding an event implemented by a successful alliance of many people, especially one of some importance">
-    <meta name="keywords" content="kovent, event coordinating, event coordinator, event planning, tiffany kovaleski, minneapolis, st paul, minnesota, twin cities, concierge, meetings, galas, corporate">
+    <meta name="keywords" content="kovent, event coordinating, event coordinator, event planning, tiffany kovaleski, minneapolis, st paul, minnesota, twin cities, concierge, meetings, galas, corporate, production">
     <meta name="author" content="Tiffany Kovaleski">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/bootstrap.min.20150617.css">
-    <link rel="stylesheet" href="/css/kovent.20150630.css">
+    <link rel="stylesheet" href="/css/kovent.201511001.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.20150617.css">
     <script src="/js/vendor/modernizr-2.8.3.min.20150617.js"></script>
 
@@ -36,7 +36,7 @@ date_default_timezone_set('America/Chicago');
             <i class="fa fa-bars"></i>
           </button>
           <a class="navbar-brand page-scroll" href="#page-top">
-            <img alt="K&Omacr;VENT" src="/img/kovent-logo-black-background.20150708.png" width="180" />
+            <img alt="K&Omacr;VENT" src="/img/kovent-logo-black-background.20150818.png" width="180" />
           </a>
         </div>
 
@@ -62,12 +62,12 @@ date_default_timezone_set('America/Chicago');
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
+    <header class="intro addVideo">
       <div class="intro-body">
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h1 class="brand-heading"><img alt="K&Omacr;VENT" src="/img/kovent-logo-white-blue.20150708.png" class="img-responsive" /></h1>
+              <h1 class="brand-heading"><img alt="K&Omacr;VENT" src="/img/kovent-logo-white-blue.20150819.png" class="img-responsive" /></h1>
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@ date_default_timezone_set('America/Chicago');
           </p>
         </div>
         <div class="col-sm-6 services-cell services-cell-black">
-          <h3>Concierge</h3>
+          <h3>Production</h3>
           <p class="text-uppercase">
             Incentive trips, golf outings, national conferences
           </p>
@@ -244,7 +244,7 @@ date_default_timezone_set('America/Chicago');
         <div class="row text-center">
           <div class="hidden-xs col-sm-6">
             <div class="logo">
-              <h1 class="brand-heading"><img class="img-responsive" alt="K&Omacr;VENT Event Coordinating + Concierge" src="/img/kovent-logo-black-background.20150708.png" /></h1>
+              <h1 class="brand-heading"><img class="img-responsive" alt="K&Omacr;VENT Event Coordinating + Production" src="/img/kovent-logo-black-background.20150818.png" /></h1>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6">
@@ -271,7 +271,7 @@ date_default_timezone_set('America/Chicago');
           </div>
           <div class="visible-xs col-xs-6 col-xs-offset-3">
             <div class="logo">
-              <h1 class="brand-heading"><img class="img-responsive" alt="K&Omacr;VENT Event Coordinating + Concierge" src="/img/kovent-logo-black-background.20150708.png" /></h1>
+              <h1 class="brand-heading"><img class="img-responsive" alt="K&Omacr;VENT Event Coordinating + Production" src="/img/kovent-logo-black-background.20150818.png" /></h1>
             </div>
           </div>
         </div>
@@ -287,7 +287,7 @@ date_default_timezone_set('America/Chicago');
     <script src="/js/bootstrap.min.20150617.js"></script>
     <script src="/js/vendor/jquery.easing.min.20150617.js"></script>
     <script src="/js/vendor/jquery.cookie-1.4.1.min.20150617.js"></script>
-    <script src="/js/kovent.20150620.js"></script>
+    <script src="/js/kovent.20151102.js"></script>
 
     <!--[if lt IE 8]>
     <script src="/js/browse.happy.20150617.js"></script>
@@ -304,8 +304,8 @@ date_default_timezone_set('America/Chicago');
         "addressCountry": "USA"
       },
       "email": "info@koventcoordinating.com",
-      "logo": "https://koventcoordinating.com/img/kovent-logo-black-background.20150708.png",
-      "name": "KŌVENT Event Coordinating + Concierge",
+      "logo": "https://koventcoordinating.com/img/kovent-logo-black-background.20150819.png",
+      "name": "KŌVENT Event Coordinating + Production",
       "telephone": "(612) 930-1515",
       "url": "https://koventcoordinating.com/"
     }

@@ -129,6 +129,10 @@ h6 {
     -o-background-size: cover;
 }
 
+.intro.intro-triangles {
+    background: url('../img/non-profit.20151102.jpg') no-repeat 85% 50% scroll;
+}
+
 .intro video {
     display: block;
 }
@@ -143,6 +147,9 @@ h6 {
   .intro {
     height: 100%;
     padding: 0;
+  }
+  .intro.intro-triangles {
+    height: 60%;
   }
 }
 
@@ -327,6 +334,13 @@ i.starburst {
 
 #services .services-cell-black {
     background: url('../img/city-black.20150617.png') no-repeat center center scroll;
+}
+
+.contact {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 0 60px;
+    font-size: 1.5em;
 }
 
 #contact {
