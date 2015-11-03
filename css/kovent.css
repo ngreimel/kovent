@@ -129,6 +129,10 @@ h6 {
     -o-background-size: cover;
 }
 
+.intro.intro-contact {
+    background: url('../img/contact.20151102.jpg') no-repeat 46% 30% scroll;
+}
+
 .intro.intro-triangles {
     background: url('../img/non-profit.20151102.jpg') no-repeat 85% 50% scroll;
 }
@@ -148,7 +152,7 @@ h6 {
     height: 100%;
     padding: 0;
   }
-  .intro.intro-triangles {
+  .intro.intro-triangles,.intro.intro-contact {
     height: 60%;
   }
 }
@@ -338,6 +342,11 @@ i.starburst {
 
 #services .services-cell-corporate {
     background: url('../img/corporate.20151100.jpg') no-repeat bottom center scroll;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    text-shadow: 2px 2px #333;
 }
 
 .contact {

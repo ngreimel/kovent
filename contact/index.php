@@ -17,7 +17,7 @@ date_default_timezone_set('America/Chicago');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/bootstrap.min.20150617.css">
-    <link rel="stylesheet" href="/css/kovent.201511001.css">
+    <link rel="stylesheet" href="/css/kovent.201511004.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.20150617.css">
     <script src="/js/vendor/modernizr-2.8.3.min.20150617.js"></script>
 
@@ -62,7 +62,7 @@ date_default_timezone_set('America/Chicago');
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro intro-triangles">
+    <header class="intro intro-contact">
       <div class="intro-body">
         <div class="container">
           <div class="row">
