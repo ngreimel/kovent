@@ -17,7 +17,7 @@ date_default_timezone_set('America/Chicago');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/bootstrap.min.20150617.css">
-    <link rel="stylesheet" href="/css/kovent.201511002.css">
+    <link rel="stylesheet" href="/css/kovent.201511008.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.20150617.css">
     <script src="/js/vendor/modernizr-2.8.3.min.20150617.js"></script>
 
@@ -208,7 +208,7 @@ date_default_timezone_set('America/Chicago');
           </p>
           -->
         </div>
-        <div class="col-sm-6 services-cell services-cell-blue">
+        <div class="col-sm-6 services-cell services-cell-fundraiser">
           <h3>Non-profit</h3>
           <p class="text-uppercase">
             Silent auctions, memorials, fundraisers, galas
@@ -217,19 +217,19 @@ date_default_timezone_set('America/Chicago');
       </div>
 
       <div class="row">
-        <div class="hidden-xs col-sm-6 services-cell services-cell-blue">
+        <div class="hidden-xs col-sm-6 services-cell services-cell-bubbles">
           <h3>Private</h3>
           <p class="text-uppercase">
             Galas, fundraisers, recognitions, holidays
           </p>
         </div>
-        <div class="col-sm-6 services-cell services-cell-black">
+        <div class="col-sm-6 services-cell services-cell-production">
           <h3>Production</h3>
           <p class="text-uppercase">
             Incentive trips, golf outings, national conferences
           </p>
         </div>
-        <div class="visible-xs col-sm-6 services-cell services-cell-blue">
+        <div class="visible-xs col-sm-6 services-cell services-cell-bubbles">
           <h3>Private</h3>
           <p class="text-uppercase">
             Galas, fundraisers, recognitions, holidays

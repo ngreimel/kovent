@@ -134,7 +134,7 @@ h6 {
 }
 
 .intro.intro-triangles {
-    background: url('../img/non-profit.20151102.jpg') no-repeat 85% 50% scroll;
+    background: url('../img/nonprofit.20151103.jpg') no-repeat 85% 50% scroll;
 }
 
 .intro video {
@@ -346,6 +346,33 @@ i.starburst {
     -moz-background-size: 100%;
     background-size: 100%;
     -o-background-size: 100%;
+    text-shadow: 2px 2px #333;
+}
+
+#services .services-cell-bubbles {
+    background: url('../img/bubbles.20151100.jpg') no-repeat bottom center scroll;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    text-shadow: 2px 2px #333;
+}
+
+#services .services-cell-fundraiser {
+    background: url('../img/fundraiser.20151100.png') no-repeat bottom center scroll;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    text-shadow: 2px 2px #333;
+}
+
+#services .services-cell-production {
+    background: url('../img/production-bottom.20151100.jpg') no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     text-shadow: 2px 2px #333;
 }
 
