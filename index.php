@@ -17,7 +17,7 @@ date_default_timezone_set('America/Chicago');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/bootstrap.min.20150617.css">
-    <link rel="stylesheet" href="/css/kovent.201511001.css">
+    <link rel="stylesheet" href="/css/kovent.201511002.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.20150617.css">
     <script src="/js/vendor/modernizr-2.8.3.min.20150617.js"></script>
 
@@ -54,7 +54,7 @@ date_default_timezone_set('America/Chicago');
               <a href="#services" class="page-scroll">Services</a>
             </li>
             <li>
-              <a href="#contact" class="page-scroll">Contact</a>
+              <a href="/contact" class="page-scroll">Contact</a>
             </li>
           </ul>
         </div>
@@ -197,7 +197,7 @@ date_default_timezone_set('America/Chicago');
     <section id="services" class="container content-section text-center">
       <h2 class="blue">Here's What We Work On</h2>
       <div class="row">
-        <div class="col-sm-6 services-cell services-cell-black">
+        <div class="col-sm-6 services-cell services-cell-corporate">
           <h3>Corporate</h3>
           <p class="text-uppercase">
             Meetings, conferences, dinners, year end, speakers
